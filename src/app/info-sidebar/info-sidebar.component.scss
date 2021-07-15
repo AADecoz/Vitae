@@ -5,6 +5,8 @@
   background: #20202a;
   box-shadow: 0 3px 8px 0 rgba(15, 15, 20, .2);
   position: fixed;
+  display: flex;
+  flex-direction: column;
   padding: 30px;
 
   &__header{
@@ -14,7 +16,7 @@
     width: 100%;
     padding: 30px;
     height: 290px;
-    background-color: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+    background-color: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
     box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
     box-sizing: border-box;
     display: flex;
@@ -27,6 +29,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-bottom: #7a7a7a 3px;
 
     &__h2{
       align-items: center;
