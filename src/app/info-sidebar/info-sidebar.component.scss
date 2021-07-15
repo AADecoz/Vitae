@@ -1,0 +1,36 @@
+info__sidebar{
+  z-index: 9999999;
+  width: 260px;
+  height: 100%;
+  display: flex;
+  background-color: #20202a;
+  box-shadow: 0 3px 8px 0 rgba(15, 15, 20, .2);
+
+  &__header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    height: 235px;
+    box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
+  }
+}
+
+
+
+img{
+  z-index: 9999999;
+  border-radius: 50%;
+  width: 100px;
+  align-items: center;
+  justify-content: center
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+}

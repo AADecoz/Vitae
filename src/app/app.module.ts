@@ -7,6 +7,7 @@ import { FontAwesomeModule, FaIconLibrary} from "@fortawesome/angular-fontawesom
 import { NavbarComponent } from './navbar/navbar.component';
 import { InfoSidebarComponent } from './info-sidebar/info-sidebar.component';
 import { MenuSidebarComponent } from './menu-sidebar/menu-sidebar.component';
+import { MainComponent } from './main/main.component';
 // import {faEllipsisV} from "@fortawesome/free-solid-svg-icons";
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MenuSidebarComponent } from './menu-sidebar/menu-sidebar.component';
     AppComponent,
     NavbarComponent,
     InfoSidebarComponent,
-    MenuSidebarComponent
+    MenuSidebarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
