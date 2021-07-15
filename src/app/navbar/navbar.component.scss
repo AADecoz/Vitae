@@ -1,0 +1,53 @@
+@media screen and (max-width: 1032px) {
+
+  .navbar__mobile__top{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background: #20202a;
+    z-index: 99;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, .2);
+  }
+
+  .navbar__mobile__top__info__header{
+    display: flex;
+    color: #8c8c8e;
+    cursor: pointer;
+
+    &__btn{
+
+    }
+  }
+
+
+  .navbar__mobile__top__menu__header{
+    color: #8c8c8e;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    cursor: pointer;
+    background: transparent;
+    -webkit-box-pack: start;
+
+    &__btn{
+
+      &::before,
+      &::after{
+        content: '';
+      }
+    }
+  }
+
+
+  fa-icon{
+    color: #8c8c8e;
+    padding: 10px;
+
+    &:hover{
+      color: #fafafc;
+    }
+  }
+}
