@@ -1,10 +1,11 @@
-info__sidebar{
-  z-index: 9999999;
-  width: 260px;
+.info__sidebar{
+  z-index: 99999;
+  width: 290px;
   height: 100%;
   display: flex;
-  background-color: #20202a;
+  background: #20202a;
   box-shadow: 0 3px 8px 0 rgba(15, 15, 20, .2);
+  position: fixed;
 
   &__header{
     position: absolute;
@@ -13,7 +14,9 @@ info__sidebar{
     width: 100%;
     padding: 30px;
     height: 235px;
+    background-color: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
     box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
+    box-sizing: border-box;
   }
 }
 
