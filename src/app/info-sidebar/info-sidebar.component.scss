@@ -35,14 +35,17 @@
   box-sizing: border-box;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
 
     &__h2{
       align-items: center;
       justify-content: center;
       color: #fafafc;
+      text-align: center;
       &:hover{
         color: #ffc107;
       }
+
     }
 
 }
@@ -56,6 +59,8 @@
 .info__sidebar__main {
 overflow: auto;
   padding: 240px 0 50px;
+  height: 100vh;
+  width: 100%;
 
   &__basic {
     text-align: left;
@@ -63,12 +68,25 @@ overflow: auto;
     position: relative;
     box-sizing: border-box;
 
+    &__list ul{
+      //justify-content: space-between;
+      //list-style-type: none;
+      //text-align: left;
+      //padding-bottom: 15px;
+      //padding-top: 15px;
+      padding: 0;
+      margin: 0;
+    }
+
     &__list li{
-      justify-content: space-between;
       list-style-type: none;
-      text-align: left;
+      //text-align: left;
       display: flex;
       flex-direction: row;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      box-sizing: border-box;
+      margin-bottom: 5px;
     }
 
     &__list h6 {
@@ -78,13 +96,17 @@ overflow: auto;
       //text-align: left;
       color:#fafafc;
       font-size: 13px;
+      font-weight: 400;
+      display: block;
+      padding: 0;
+      margin: 0;
     }
 
     &__list span {
       //display: inline-flex;
       //position: fixed;
       //flex-direction: column;
-      //text-align: end;
+      text-align: end;
     }
   }
 
