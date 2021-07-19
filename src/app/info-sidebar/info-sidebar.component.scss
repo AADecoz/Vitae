@@ -135,7 +135,8 @@
     flex-wrap: wrap;
     text-align: center;
     //display: block;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: #fafafc;
 
     &__progress{
       display: inline-block;
@@ -149,8 +150,7 @@
       padding-bottom: 15px;
       padding-top: 15px;
 
-      //display: inline-block;
-    //vertical-align: top;
+
 
       svg{
       display: block;
@@ -159,12 +159,23 @@
 
         path{
         stroke: #191923;
+          //width: 59px;
         }
+        #pro{
+          stroke: #ffc107;
+        }
+        //&__percent{
+        //  color: #fafafc;
+        //}
       }
 
     }
   }
-
+  info__sidebar__main__languages__skills__item__percent{
+    //content: '%';
+    //color: #fafafc;
+    //position: absolute;
+  }
   .info__sidebar__main__languages__skills__item__detail{
     color: #fafafc;
     font-size: 13px;
