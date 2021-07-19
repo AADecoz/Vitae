@@ -16,7 +16,7 @@
     width: 100%;
     padding: 30px;
     height: 250px;
-    background-color: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
+    background: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
     box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
     box-sizing: border-box;
     display: flex;
@@ -113,16 +113,45 @@
     }
   }
 
-  .info__sidebar__main__languages__title{
-    margin-top: 30px;
+  .info__sidebar__main__languages__title {
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 600;
     color: #fafafc;
 
   }
 
+  .info__sidebar__main__languages__skills {
+    display: flex;
+    flex-direction: row;
 
-  info__sidebar__main {
+    &__item {
+    width: 60px;
+    height: 60px;
+    position: relative;
+
+      svg{
+       display: block;
+        width: 100%;
+        overflow: hidden;
+
+        path{
+          stroke: #191923;
+        }
+      }
+
+    }
+  }
+
+  .info__sidebar__main__coding__title{
+    color: #fafafc;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .info__sidebar__main {
   //padding: 20px;
 
     &__links {
