@@ -1,3 +1,17 @@
+h5{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fafafc;
+}
+
+
+
+
+
+//info sidebar//
+
 .info__sidebar{
   z-index: 99999;
   width: 230px;
@@ -56,34 +70,27 @@
   width: 90px;
 }
 
+
+
+
+
+
+//Main information//
+
 .info__sidebar__main {
   overflow: auto;
   padding: 240px 0 50px;
   height: 100vh;
   width: 100%;
+  overflow: auto;
 
   &__basic {
     padding-top: 15px;
     padding-bottom: 15px;
-    //margin-left: 0;
-    //padding-left: 0;
-    //text-align: left;
 
-    &__list ul {
-      //justify-content: space-between;
-      //list-style-type: none;
-      //text-align: left;
-      //padding-bottom: 15px;
-      //padding-top: 15px;
-      padding: 0;
-      margin: 0;
-      //text-align: left;
-      //width: 100%;
-    }
 
     &__list li {
       list-style-type: none;
-      //text-align: left;
       display: flex;
       flex-direction: row;
       -webkit-box-pack: justify;
@@ -93,10 +100,6 @@
     }
 
     &__list h6 {
-      //display: inline-flex;
-      //position: fixed;
-      //flex-direction: column;
-      //text-align: left;
       color: #fafafc;
       font-size: 13px;
       font-weight: 400;
@@ -106,17 +109,22 @@
     }
 
     &__list span {
-      //display: inline-flex;
-      //position: fixed;
-      //flex-direction: column;
       text-align: end;
     }
   }
 
+
+
+
+
+
+
+  //Languages//
+
   .info__sidebar__main__languages__title {
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #fafafc;
 
@@ -128,19 +136,17 @@
   }
 
   .info__sidebar__main__languages__skills {
-    //display: inline-block;
-    //vertical-align: top;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    //display: block;
     justify-content: space-around;
     color: #fafafc;
 
+
+
     &__progress{
       display: inline-block;
-      //margin-bottom: 15px;
     }
 
     &__item {
@@ -171,15 +177,28 @@
 
     }
   }
-  info__sidebar__main__languages__skills__item__percent{
-    //content: '%';
-    //color: #fafafc;
-    //position: absolute;
+
+  .info__sidebar__main__languages__skills__item__percent{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%); color: rgb(85, 85, 85);
   }
   .info__sidebar__main__languages__skills__item__detail{
     color: #fafafc;
     font-size: 13px;
+    font-family: Poppins, sans-serif;
   }
+
+
+
+
+
+
+  //Coding skills//
+
 
   .info__sidebar__main__coding__title{
     color: #fafafc;
@@ -187,6 +206,52 @@
     font-weight: 600;
     margin-top: 30px;
   }
+
+  .info__sidebar__main__coding__skills__heading{
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .info__sidebar__main__coding__skills__heading__title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .info__sidebar__main__coding__skills{
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .info__sidebar__main__coding__skills__process{
+    stroke: #191923;
+  }
+
+  .info__sidebar__main__coding__skills__process__bar{
+    stroke: #ffc107;
+  }
+
+  .info__sidebar__main__coding__process__percentage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%,-50%);
+    //color: rgb(85,85,85);
+    //color: #fafafc;
+    text-align: right;
+    top: -6px;
+    width:100%;
+  }
+
+
+
+
 
   .info__sidebar__main {
   //padding: 20px;
@@ -200,8 +265,8 @@
       }
 
       &__icon img{
-        //width: 25px;
-        //height: auto;
+        width: 25px;
+        height: auto;
       }
     }
   }
