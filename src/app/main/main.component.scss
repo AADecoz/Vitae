@@ -1,0 +1,25 @@
+.main__img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 60%;
+}
+
+.main__typewriter{
+position: relative;
+  z-index: 99999;
+  top: 100px;
+
+}
+
+
+
+
+
+img{
+  width: 80%;
+  height: auto;
+  filter: grayscale(90%);
+}
+

@@ -1,6 +1,7 @@
 <app-navbar></app-navbar>
 
-<app-info-sidebar></app-info-sidebar>
+<app-info-sidebar *ngIf="isOpen"></app-info-sidebar>
 
-<app-menu-sidebar></app-menu-sidebar>
+<!--<app-menu-sidebar></app-menu-sidebar>-->
 
+<app-main></app-main>

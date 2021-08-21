@@ -10,3 +10,16 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+class Subject {
+  private subscribers: Function[] = [];
+  subscribe (func: Function): void{
+    this.subscribers.push(func);
+  }
+
+  next(value:any){
+    for (const func of this.subscribers){
+      func(value)
+    }
+  }
+}
