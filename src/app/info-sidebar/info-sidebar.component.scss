@@ -233,17 +233,19 @@ h5{
     font-weight: 400;
     font-family: Poppins, sans-serif;
     margin: 0px;
-    padding: 0px;
+    padding: 20px 0 -25px;
     text-align: left;
   }
 
   .info__sidebar__main__coding__skills{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 15px;
 
       path{
         stroke: #191923;
       }
+
+
   }
 
   .info__sidebar__main__coding__skills__process{
@@ -258,11 +260,9 @@ h5{
     position: absolute;
     left: 50%;
     top: 50%;
-    padding: 0px;
-    margin: 0px;
     transform: translate(-50%,-50%);
     //color: rgb(85,85,85);
-    //color: #fafafc;
+    color: #fafafc;
     text-align: right;
     top: -6px;
     width:100%;
@@ -272,7 +272,6 @@ h5{
 
   .info__sidebar__main__softskills__list{
    color: white;
-    //font-size: 10px;
     padding-bottom: 10px;
   }
   .info__sidebar__main__softskills__list fa-icon{
