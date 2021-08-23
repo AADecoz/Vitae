@@ -271,24 +271,39 @@ h5{
 
 
   .info__sidebar__main__softskills__list{
-    //display: flex;
-    //align-content: space-around;
+   color: white;
+    //font-size: 10px;
+    padding-bottom: 10px;
+  }
+  .info__sidebar__main__softskills__list fa-icon{
+    color: #ffc107;
+  }
+  .info__sidebar__main__softskills__list h4{
+    padding-bottom: 5px;
   }
 
+  .info__sidebar__main__cv{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: bottom;
+  }
 
 
   .info__sidebar__main__links {
     //display: flex;
   }
-  .info__sidebar__main__links__icon {
-        align-content: space-around;
-
-      }
-
-  .info__sidebar__main__links__icon{
-        width: 25px;
-        height: auto;
-  }}
+  //.info__sidebar__main__links__icon {
+  //      align-content: space-around;
+  //
+  //    }
+  //
+  //.info__sidebar__main__links__icon{
+  //      width: 25px;
+  //      height: auto;
+  //}
+}
 
 
 

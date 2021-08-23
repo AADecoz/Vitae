@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-// import Typewriter from 't-writer.js'
+import {AngularTypewriterEffectModule, TypewriterComponent} from "angular-typewriter-effect";
+TypewriterComponent
+
 
 @Component({
   selector: 'app-main',
@@ -7,8 +9,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-
-// target element  <div class="tw"></div>
+  list = ['AngularTypewriter effect','Hello World....']
 
 
 
@@ -20,12 +21,6 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {}
-    // const target = document.querySelector('.tw')
-    //
-    // const options = {
-    //   loop: true
-    // }
-    //
-    // const writer = new Typewriter(target, options)}
+
 
 }

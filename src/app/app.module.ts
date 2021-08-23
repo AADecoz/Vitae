@@ -10,6 +10,9 @@ import { InfoSidebarComponent } from './info-sidebar/info-sidebar.component';
 import { MenuSidebarComponent } from './menu-sidebar/menu-sidebar.component';
 import { MainComponent } from './main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {AngularTypewriterEffectModule} from "angular-typewriter-effect";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 
@@ -28,7 +31,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    // DisplayInfoService,
+    AngularTypewriterEffectModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [DisplayInfoService],
   bootstrap: [AppComponent]

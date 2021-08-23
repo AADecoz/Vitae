@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {faCheckSquare} from "@fortawesome/free-regular-svg-icons";
+import {faCheckSquare, faFilePdf} from "@fortawesome/free-regular-svg-icons";
 import {DisplayInfoService} from "../display-info.service";
 
 @Component({
@@ -13,6 +13,7 @@ export class InfoSidebarComponent implements OnInit {
 
   @Input()isOpen = false;
   fCheckSquare = faCheckSquare;
+  fFilePDF=faFilePdf
 
   constructor(private displayinfoService: DisplayInfoService) {
 
