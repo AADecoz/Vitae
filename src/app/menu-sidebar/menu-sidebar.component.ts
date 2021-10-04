@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {faCheckSquare, faFilePdf} from "@fortawesome/free-regular-svg-icons";
+import {DisplayInfoService} from "../display-info.service";
 
 @Component({
   selector: 'app-menu-sidebar',
@@ -7,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuSidebarComponent implements OnInit {
 
-  constructor() { }
+
+
+
+  @Input()isOpen = false;
+  fCheckSquare = faCheckSquare;
+  fFilePDF=faFilePdf
+
+  constructor(private displayinfoService: DisplayInfoService) {
+
+  }
 
   ngOnInit(): void {
+    this.displayinfoService.isOpen
+      .subscribe((isOpen:boolean) => {
+        this.isOpen = isOpen;
+      })
+
+  }
+
+  onClose(){
+    this.displayinfoService.close();
   }
 
 }
