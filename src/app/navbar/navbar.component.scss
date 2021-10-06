@@ -15,9 +15,12 @@
   }
 
   .navbar__mobile__top__info__header{
+    z-index: 99999;
     display: flex;
     color: #8c8c8e;
     cursor: pointer;
+    justify-content: end;
+
 
     &__btn{
 

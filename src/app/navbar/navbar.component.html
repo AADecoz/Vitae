@@ -1,5 +1,5 @@
-<nav class="navbar__mobile__top " (click)="toggle()">
-  <div class="navbar__mobile__top__info__header">
+<nav class="navbar__mobile__top ">
+  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle()" class="navbar__mobile__top__info__header">
     <a id="profile" routerLink="/info-sidebar" class="navbar__mobile__top__info__header__btn" >
       <fa-icon [icon]="fEllipsis"></fa-icon>
     </a>

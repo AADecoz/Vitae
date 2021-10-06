@@ -6,9 +6,9 @@ h5{
   color: #fafafc;
 }
 
-//info sidebar//
+//menu sidebar//
 
-.info__sidebar{
+.menu__sidebar{
   z-index: 99999;
   width: 230px;
   height: 100%;
@@ -26,7 +26,7 @@ h5{
     top: 0;
     width: 100%;
     padding: 30px;
-    height: 250px;
+    height: 60px;
     background: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
     box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
     box-sizing: border-box;
@@ -38,7 +38,7 @@ h5{
   }
 }
 
-.info__sidebar__header__info{
+.menu__sidebar__header__menu{
   display: block;
   align-items: center;
   justify-content: center;
@@ -73,9 +73,9 @@ h5{
 
 
 
-//Main information//
+//Main menurmation//
 
-.info__sidebar__main {
+.menu__sidebar__main {
   overflow: hidden;
   padding: 220px 0 50px;
   height: 100vh;
@@ -128,7 +128,7 @@ h5{
 
   //Languages//
 
-  .info__sidebar__main__languages__title {
+  .menu__sidebar__main__languages__title {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 13px;
@@ -136,13 +136,13 @@ h5{
     color: #fafafc;
 
   }
-  .info__sidebar__main__languages{
+  .menu__sidebar__main__languages{
     //display: inline-block;
     //vertical-align: top;
 
   }
 
-  .info__sidebar__main__languages__skills {
+  .menu__sidebar__main__languages__skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -185,7 +185,7 @@ h5{
     }
   }
 
-  .info__sidebar__main__languages__skills__item__percent{
+  .menu__sidebar__main__languages__skills__item__percent{
     position: relative;
     left: 50%;
     top: 50%;
@@ -198,7 +198,7 @@ h5{
   .perk{
     color: white;
   }
-  .info__sidebar__main__languages__skills__item__detail{
+  .menu__sidebar__main__languages__skills__item__detail{
     color: #fafafc;
     font-size: 13px;
     font-family: Poppins, sans-serif;
@@ -212,20 +212,20 @@ h5{
   //Coding skills//
 
 
-  .info__sidebar__main__coding__title{
+  .menu__sidebar__main__coding__title{
     color: #fafafc;
     font-size: 14px;
     font-weight: 600;
     margin-top: 30px;
   }
 
-  .info__sidebar__main__coding__skills__heading{
+  .menu__sidebar__main__coding__skills__heading{
     //margin-bottom: 15px;
     position: relative;
 
   }
 
-  .info__sidebar__main__coding__skills__heading__title {
+  .menu__sidebar__main__coding__skills__heading__title {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
@@ -235,7 +235,7 @@ h5{
     text-align: left;
   }
 
-  .info__sidebar__main__coding__skills{
+  .menu__sidebar__main__coding__skills{
     padding-top: 20px;
     padding-bottom: 15px;
 
@@ -246,7 +246,7 @@ h5{
 
   }
 
-  .info__sidebar__main__coding__skills__process{
+  .menu__sidebar__main__coding__skills__process{
     stroke: #191923;
   }
 
@@ -254,7 +254,7 @@ h5{
     stroke: #ffc107;
   }
 
-  .info__sidebar__main__coding__process__percentage{
+  .menu__sidebar__main__coding__process__percentage{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -268,18 +268,18 @@ h5{
 
 
 
-  .info__sidebar__main__softskills__list{
+  .menu__sidebar__main__softskills__list{
     color: white;
     padding-bottom: 10px;
   }
-  .info__sidebar__main__softskills__list fa-icon{
+  .menu__sidebar__main__softskills__list fa-icon{
     color: #ffc107;
   }
-  .info__sidebar__main__softskills__list h4{
+  .menu__sidebar__main__softskills__list h4{
     padding-bottom: 5px;
   }
 
-  .info__sidebar__main__cv{
+  .menu__sidebar__main__cv{
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -288,15 +288,15 @@ h5{
   }
 
 
-  .info__sidebar__main__links {
+  .menu__sidebar__main__links {
     //display: flex;
   }
-  //.info__sidebar__main__links__icon {
+  //.menu__sidebar__main__links__icon {
   //      align-content: space-around;
   //
   //    }
   //
-  //.info__sidebar__main__links__icon{
+  //.menu__sidebar__main__links__icon{
   //      width: 25px;
   //      height: auto;
   //}

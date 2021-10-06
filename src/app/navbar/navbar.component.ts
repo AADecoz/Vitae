@@ -13,18 +13,16 @@ import {DisplayInfoService} from "../display-info.service";
   animations: [
     trigger('childAnimation', [
       // ...
-      state('open', style({
-        width: '290px',
-        opacity: 1,
-        backgroundColor: 'yellow'
-      })),
       state('closed', style({
-        width: '100px',
-        opacity: 0.8,
-        backgroundColor: '#c6ecff'
+        opacity: 1,
+      })),
+      state('open', style({
+        width: '300px',
+        opacity: 1,
+        color: '#fff',
       })),
       transition('* => *', [
-        animate('1s')
+        animate('0.5s')
       ]),
     ]),
   ],

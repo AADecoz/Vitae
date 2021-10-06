@@ -15,6 +15,7 @@ export class InfoSidebarComponent implements OnInit {
   fCheckSquare = faCheckSquare;
   fFilePDF=faFilePdf
 
+
   constructor(private displayinfoService: DisplayInfoService) {
 
   }
@@ -30,5 +31,6 @@ export class InfoSidebarComponent implements OnInit {
   onClose(){
     this.displayinfoService.close();
   }
+
 
 }
