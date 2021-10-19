@@ -4,7 +4,7 @@
       <fa-icon [icon]="fEllipsis"></fa-icon>
     </a>
   </div>
-  <div class="navbar__mobile__top__menu__header">
+  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle()" class="navbar__mobile__top__menu__header">
     <a href="#menu-sidebar" class="navbar__mobile__top__menu__header__btn">
       <span>
         <fa-icon [icon]="fBars"></fa-icon>

@@ -2,6 +2,7 @@ import {Component, Input, OnInit} from '@angular/core';
 import {faCheckSquare, faFilePdf} from "@fortawesome/free-regular-svg-icons";
 import {DisplayInfoService} from "../display-info.service";
 
+
 @Component({
   selector: 'app-info-sidebar',
   templateUrl: './info-sidebar.component.html',
