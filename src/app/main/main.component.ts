@@ -9,7 +9,8 @@ TypewriterComponent
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-  list = ['AngularTypewriter effect','Hello World....']
+  list = ['I learn...','I understand...','I utilise...']
+
 
 
 
