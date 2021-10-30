@@ -12,6 +12,13 @@
 
 }
 
+.type-thingy{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 ngtypewriter{
   position: absolute;
   z-index: 99999;
@@ -21,10 +28,10 @@ ngtypewriter{
 
 }
 
-span{
+p{
   font-size: x-large;
   position: absolute;
-  color: #ffc107;
+  color: white;
   z-index: 99999;
 }
 
