@@ -10,12 +10,14 @@ import {DisplayInfoService} from "./display-info.service";
 export class AppComponent implements OnInit{
   title = 'CV';
   isOpen = false;
+  isOpen2 = false;
 
  constructor(private displayinfoService:DisplayInfoService) {
  }
 
   ngOnInit(): void {
   this.displayinfoService.isOpen.subscribe(value => this.isOpen = value)
+  this.displayinfoService.isOpen.subscribe(value => this.isOpen2 = value)
   }
 }
 

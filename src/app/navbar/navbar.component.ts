@@ -5,6 +5,7 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons";
 import {trigger, transition, state, animate, style} from "@angular/animations"
 import {Injectable} from "@angular/core"
 import {DisplayInfoService} from "../display-info.service";
+import {DisplayMenuService} from "../display-menu.service";
 
 @Component({
   selector: 'app-navbar',
@@ -55,13 +56,17 @@ export class NavbarComponent implements OnInit {
 
 
   // private displayinfoService:DisplayInfoService;
-  constructor(private displayinfoService: DisplayInfoService) {
+  constructor(private displayinfoService: DisplayInfoService, private displaymenuService: DisplayMenuService) {
   // this.displayinfoService = DisplayInfoService;
   }
 
   ngOnInit(): void {
     this.displayinfoService.isOpen
       .subscribe((isOpen: boolean) => {
+        this.isOpen = isOpen
+      })
+    this.displaymenuService.isOpen2
+      .subscribe((isOpen:boolean) => {
         this.isOpen = isOpen
       })
   }
