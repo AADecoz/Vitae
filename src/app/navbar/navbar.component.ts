@@ -45,6 +45,8 @@ export class NavbarComponent implements OnInit {
   fTimes = faTimes;
 
   isOpen = false;
+  izOpen = false;
+
   toggle() {
     this.isOpen = !this.isOpen;
     if (this.isOpen) {
@@ -52,6 +54,16 @@ export class NavbarComponent implements OnInit {
     } else {
       this.displayinfoService.close()
     }
+
+  }
+  toggle2() {
+    this.izOpen = !this.izOpen;
+    if (this.izOpen) {
+      this.displaymenuService.open()
+    } else {
+      this.displaymenuService.close()
+    }
+
   }
 
 
@@ -65,7 +77,7 @@ export class NavbarComponent implements OnInit {
       .subscribe((isOpen: boolean) => {
         this.isOpen = isOpen
       })
-    this.displaymenuService.isOpen2
+    this.displaymenuService.isOpen
       .subscribe((isOpen:boolean) => {
         this.isOpen = isOpen
       })
@@ -74,6 +86,8 @@ export class NavbarComponent implements OnInit {
   onClose(){
     this.displayinfoService.close();
   }
-
+  onClose2(){
+    this.displaymenuService.close();
+  }
 
 }

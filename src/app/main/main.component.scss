@@ -8,8 +8,6 @@
   height: auto;
   width: 100%;
 
-
-
 }
 
 .type-thingy{
@@ -24,19 +22,18 @@ ngtypewriter{
   z-index: 99999;
   //top: 100px;
   color: #ffc107;
-  font-size: x-large;
+  font-size: 50px;
+  font-family: "Roboto Light";
 
 }
 
 p{
+  display: none;
   font-size: x-large;
   position: absolute;
   color: white;
   z-index: 99999;
 }
-
-
-
 
 
 img{

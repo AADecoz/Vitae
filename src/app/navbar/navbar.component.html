@@ -4,8 +4,8 @@
       <fa-icon [icon]="fEllipsis"></fa-icon>
     </a>
   </div>
-  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle()" class="navbar__mobile__top__menu__header">
-    <a href="#menu-sidebar" class="navbar__mobile__top__menu__header__btn">
+  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle2()" class="navbar__mobile__top__menu__header">
+    <a id="#menu-sidebar" routerLink="/menu-sidebar" class="navbar__mobile__top__menu__header__btn">
       <span>
         <fa-icon [icon]="fBars"></fa-icon>
       </span>

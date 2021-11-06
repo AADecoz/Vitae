@@ -10,7 +10,7 @@ export class DisplayMenuService {
   private _isOpen = new Subject<boolean>();
   // constructor() { }
 
-  get isOpen2(): Subject<boolean>{
+  get isOpen(): Subject<boolean>{
     return this._isOpen;
   }
 

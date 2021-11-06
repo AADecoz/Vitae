@@ -9,9 +9,6 @@ import {DisplayMenuService} from "../display-menu.service";
 })
 export class MenuSidebarComponent implements OnInit {
 
-
-
-
   @Input()isOpen = false;
   fCheckSquare = faCheckSquare;
   fFilePDF=faFilePdf
@@ -21,7 +18,7 @@ export class MenuSidebarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.displaymenuService.isOpen2
+    this.displaymenuService.isOpen
       .subscribe((isOpen:boolean) => {
         this.isOpen = isOpen;
       })
