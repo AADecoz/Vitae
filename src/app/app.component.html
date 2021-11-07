@@ -2,7 +2,6 @@
 
 <app-info-sidebar *ngIf="isOpen"></app-info-sidebar>
 
-<app-menu-sidebar *ngIf="izOpen"></app-menu-sidebar>
-
+<app-menu-sidebar [@slideInOut]="Sidebar ? 'open' : 'closed'" *ngIf="izOpen"></app-menu-sidebar>
 
 <app-main></app-main>

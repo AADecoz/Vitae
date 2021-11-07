@@ -6,6 +6,10 @@ h5{
   color: #fafafc;
 }
 
+fa-icon{
+  padding: 5px 10px 5px;
+}
+
 //menu sidebar//
 
 
@@ -20,7 +24,7 @@ h5{
   display: flex;
   flex-direction: column;
   padding: 30px;
-  right: 0px;
+  right: 0;
 
   &__header{
     position: absolute;
@@ -38,6 +42,16 @@ h5{
     justify-content: center;
 
 
+  }
+}
+
+.menu__sidebar__header__close{
+  width: 240px;
+  display: flex;
+  justify-content: left;
+  &:hover{
+    color: white;
+    cursor: pointer;
   }
 }
 
@@ -192,8 +206,8 @@ h5{
     position: relative;
     left: 50%;
     top: 50%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     transform: translate(-50%, -50%); color: rgb(85, 85, 85);
     color: white;
   }
@@ -233,7 +247,7 @@ h5{
     font-size: 13px;
     font-weight: 400;
     font-family: Poppins, sans-serif;
-    margin: 0px;
+    margin: 0;
     padding: 20px 0 -25px;
     text-align: left;
   }

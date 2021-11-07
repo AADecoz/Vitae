@@ -1,5 +1,6 @@
-<section class="info__sidebar" id="info-sidebar">
+<section @openClose class="info__sidebar" id="info-sidebar">
   <section class="info__sidebar__header">
+    <div class="info__sidebar__header__close" ><fa-icon [icon]="fEllipsis" (click)="onClose()"></fa-icon></div>
     <img id="avatar" src="/assets/img/alexander.jpg" alt="Albert Alexander Decoz Lex">
     <div class="info__sidebar__header__info">
       <h2 class="info__sidebar__header__info__h2">Alexander Decoz</h2>
@@ -26,22 +27,22 @@
         <div id="dutch" data-type="circles" data-value="100" class="info__sidebar__main__languages__skills__item">
           <svg viewBox="0 0 100 100">
             <path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#eee" stroke-width="7" fill-opacity="0"></path>
-            <path id="pro" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#555" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.209px, 292.209px; stroke-dashoffset: 0px;"></path></svg>
-          <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">100%</span></div></div>
+            <path id="pro" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#555" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.209px, 292.209px; stroke-dashoffset: 0;"></path></svg>
+          <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0; margin: 0; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">100%</span></div></div>
         <h6 class="info__sidebar__main__languages__skills__item__detail">Dutch</h6></div>
         <div class="info__sidebar__main__languages__skills__progress">
         <div id="english" data-type="circles" data-value="90" class="info__sidebar__main__languages__skills__item">
           <svg viewBox="0 0 100 100">
             <path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#eee" stroke-width="7" fill-opacity="0"></path>
             <path id="pro" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#555" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.209px, 292.209px; stroke-dashoffset: 29.2209px;"></path></svg>
-          <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">90%</span></div></div>
+          <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0; margin: 0; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">90%</span></div></div>
         <h6 class="info__sidebar__main__languages__skills__item__detail">English</h6></div>
         <div class="info__sidebar__main__languages__skills__progress">
           <div id="french" data-type="circles" data-value="30" class="info__sidebar__main__languages__skills__item">
             <svg viewBox="0 0 100 100">
               <path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#eee" stroke-width="7" fill-opacity="0"></path>
               <path id="pro" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#555" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.209px, 292.209px; stroke-dashoffset: 200.6626px;"></path></svg>
-            <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">30%</span></div></div>
+            <div class="info__sidebar__main__languages__skills__item__percent" style="position: absolute; left: 50%; top: 50%; padding: 0; margin: 0; transform: translate(-50%, -50%); color: rgb(85, 85, 85);"><span class="perk">30%</span></div></div>
         <h6 class="info__sidebar__main__languages__skills__item__detail">German</h6></div>
       </div>
     </div>

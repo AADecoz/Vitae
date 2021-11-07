@@ -1,14 +1,10 @@
 <nav class="navbar__mobile__top ">
-  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle()" class="navbar__mobile__top__info__header">
-    <a id="profile" routerLink="/info-sidebar" class="navbar__mobile__top__info__header__btn" >
-      <fa-icon [icon]="fEllipsis"></fa-icon>
-    </a>
+  <div  class="navbar__mobile__top__info__header">
+      <fa-icon [icon]="fEllipsis" (click)="toggle()"></fa-icon>
   </div>
-  <div [@childAnimation]="isOpen ? 'open' : 'closed'" (click)="toggle2()" class="navbar__mobile__top__menu__header">
-    <a id="#menu-sidebar" routerLink="/menu-sidebar" class="navbar__mobile__top__menu__header__btn">
+  <div class="navbar__mobile__top__menu__header">
       <span>
-        <fa-icon [icon]="fBars"></fa-icon>
+        <fa-icon [icon]="fBars" (click)="toggle2()"></fa-icon>
       </span>
-    </a>
   </div>
 </nav>
