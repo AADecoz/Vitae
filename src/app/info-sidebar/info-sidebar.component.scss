@@ -311,18 +311,19 @@ h5{
   }
 
 
-  .info__sidebar__main__links {
-    //display: flex;
-  }
-  //.info__sidebar__main__links__icon {
-  //      align-content: space-around;
-  //
-  //    }
-  //
-  //.info__sidebar__main__links__icon{
-  //      width: 25px;
-  //      height: auto;
-  //}
+
+
+}
+
+.info__sidebar__main__links {
+  display: flex;
+  flex-direction: row;
+  //align-items: baseline;
+  //justify-content: space-around;
+  gap: 1rem;
+  width: 200px;
+  height: auto;
+
 }
 
 

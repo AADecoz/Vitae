@@ -1,1 +1,10 @@
-<p>menu-portfolio works!</p>
+<div class="menu__chapter">
+<h4 class="menu__chapter__title">Portfolio <fa-icon [icon]="fachevronright" @openClose (click)="dropDown"></fa-icon> </h4>
+
+<!--  <fa-icon [icon]="fachevrondown"></fa-icon>-->
+  <ul *ngIf="dropDown">
+    <li><h5 class="menu__chapter__item"><a href="https://phpjobdag.be" target="_blank">PHPJOBDAG</a></h5></li>
+    <li><h5 class="menu__chapter__item"><a href="https://medideck.tk" target="_blank">MEDIDECK</a></h5></li>
+    <li><h5 class="menu__chapter__item"><a href="https://oedipusdating.tk" target="_blank">OEDIPUS-DATING</a></h5></li>
+  </ul>
+</div>
