@@ -33,14 +33,16 @@ export class MenuPortfolioComponent implements OnInit {
   fachevrondown = faChevronDown;
   dropDown = false;
 
-
+toggle(){
+  this.dropDown = !this.dropDown;
+}
 
 
   constructor() { }
 
 
   ngOnInit(): void {
-    this.dropDown = !this.dropDown
+    // this.dropDown = !this.dropDown
   }
 
 }

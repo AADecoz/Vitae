@@ -1,5 +1,5 @@
-<div class="menu__chapter">
-<h4 class="menu__chapter__title">Portfolio <fa-icon [icon]="fachevronright" @openClose (click)="dropDown"></fa-icon> </h4>
+<div class="menu__chapter" (click)="toggle()">
+<h4 class="menu__chapter__title">Portfolio <fa-icon [icon]="fachevronright" @openClose ></fa-icon> </h4>
 
 <!--  <fa-icon [icon]="fachevrondown"></fa-icon>-->
   <ul *ngIf="dropDown">

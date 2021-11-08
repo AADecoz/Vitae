@@ -1,9 +1,22 @@
 .menu__chapter{
-
+padding: 10px;
 }
 .menu__chapter__title{
 text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
+
+  background: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
+  box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
+  box-sizing: border-box;
+
 }
 .menu__chapter__item{
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
 
+  background: linear-gradient(159deg, rgba(37,37,50,.98) 0%, rgba(35,35,45,.98) 100%);
+  box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
+  box-sizing: border-box;
 }

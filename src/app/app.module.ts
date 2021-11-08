@@ -14,6 +14,7 @@ import {AngularTypewriterEffectModule} from "angular-typewriter-effect";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MenuPortfolioComponent } from './menu-portfolio/menu-portfolio.component';
+import { BackdropComponent } from './backdrop/backdrop.component';
 
 
 
@@ -25,7 +26,8 @@ import { MenuPortfolioComponent } from './menu-portfolio/menu-portfolio.componen
     InfoSidebarComponent,
     MenuSidebarComponent,
     MainComponent,
-    MenuPortfolioComponent
+    MenuPortfolioComponent,
+    BackdropComponent
   ],
   imports: [
     BrowserModule,
