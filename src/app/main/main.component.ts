@@ -9,12 +9,11 @@ TypewriterComponent
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-  list = ['I learn...','I understand...','I utilise...']
-
-
-
-
-
+  title = 'CV';
+  list = [
+    'Eager to learn new methods, technologies and code',
+    'Dedicated, driven and enthusiastic',
+    'In search for opportunities']
 
 
 

@@ -79,15 +79,6 @@ fa-icon{
 
 }
 
-#avatar{
-  z-index: 9999999;
-  border-radius: 50%;
-  width: 90px;
-}
-
-
-
-
 
 
 //Main menurmation//
@@ -131,10 +122,11 @@ fa-icon{
   }
 
 
-  #bgd{
+  #bgd {
     background-color: #191923;
   }
-  #inner{
+
+  #inner {
     width: 100%;
     overflow: auto;
     height: 100%;
@@ -153,171 +145,7 @@ fa-icon{
     color: #fafafc;
 
   }
-  .menu__sidebar__main__languages{
-    //display: inline-block;
-    //vertical-align: top;
 
-  }
-
-  .menu__sidebar__main__languages__skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-around;
-    color: #fafafc;
-
-
-
-    &__progress{
-      display: inline-block;
-    }
-
-    &__item {
-      width: 50px;
-      height: 50px;
-      position: relative;
-      padding-bottom: 15px;
-      padding-top: 15px;
-
-
-
-      svg{
-        display: block;
-        width: 100%;
-        overflow: hidden;
-
-        path{
-          stroke: #191923;
-          //width: 59px;
-        }
-        #pro{
-          stroke: #ffc107;
-        }
-        //&__percent{
-        //  color: #fafafc;
-        //}
-      }
-
-    }
-  }
-
-  .menu__sidebar__main__languages__skills__item__percent{
-    position: relative;
-    left: 50%;
-    top: 50%;
-    padding: 0;
-    margin: 0;
-    transform: translate(-50%, -50%); color: rgb(85, 85, 85);
-    color: white;
-  }
-
-  .perk{
-    color: white;
-  }
-  .menu__sidebar__main__languages__skills__item__detail{
-    color: #fafafc;
-    font-size: 13px;
-    font-family: Poppins, sans-serif;
-  }
-
-
-
-
-
-
-  //Coding skills//
-
-
-  .menu__sidebar__main__coding__title{
-    color: #fafafc;
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 30px;
-  }
-
-  .menu__sidebar__main__coding__skills__heading{
-    //margin-bottom: 15px;
-    position: relative;
-
-  }
-
-  .menu__sidebar__main__coding__skills__heading__title {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: Poppins, sans-serif;
-    margin: 0;
-    padding: 20px 0 -25px;
-    text-align: left;
-  }
-
-  .menu__sidebar__main__coding__skills{
-    padding-top: 20px;
-    padding-bottom: 15px;
-
-    path{
-      stroke: #191923;
-    }
-
-
-  }
-
-  .menu__sidebar__main__coding__skills__process{
-    stroke: #191923;
-  }
-
-  #progbar{
-    stroke: #ffc107;
-  }
-
-  .menu__sidebar__main__coding__process__percentage{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    //color: rgb(85,85,85);
-    color: #fafafc;
-    text-align: right;
-    top: -6px;
-    width:100%;
-  }
-
-
-
-  .menu__sidebar__main__softskills__list{
-    color: white;
-    padding-bottom: 10px;
-  }
-  .menu__sidebar__main__softskills__list fa-icon{
-    color: #ffc107;
-  }
-  .menu__sidebar__main__softskills__list h4{
-    padding-bottom: 5px;
-  }
-
-  .menu__sidebar__main__cv{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: bottom;
-  }
-
-
-  .menu__sidebar__main__links {
-    //display: flex;
-  }
-  //.menu__sidebar__main__links__icon {
-  //      align-content: space-around;
-  //
-  //    }
-  //
-  //.menu__sidebar__main__links__icon{
-  //      width: 25px;
-  //      height: auto;
-  //}
 }
-
 
 

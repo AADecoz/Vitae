@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AngularTypewriterEffectModule} from "angular-typewriter-effect";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { MenuPortfolioComponent } from './menu-portfolio/menu-portfolio.component';
 
 
 
@@ -23,7 +24,8 @@ import { environment } from '../environments/environment';
     NavbarComponent,
     InfoSidebarComponent,
     MenuSidebarComponent,
-    MainComponent
+    MainComponent,
+    MenuPortfolioComponent
   ],
   imports: [
     BrowserModule,
