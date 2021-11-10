@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, style, transition, trigger} from "@angular/animations";
+import {DisplayMenuService} from "../display-menu.service";
+import {DisplayInfoService} from "../display-info.service";
 
 @Component({
   selector: 'app-backdrop',
@@ -29,7 +31,15 @@ import {animate, style, transition, trigger} from "@angular/animations";
 })
 export class BackdropComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private displaymenuService: DisplayMenuService) {
+
+  }
+
+  onClose(){
+    this.displaymenuService.close()
+  }
+
 
   ngOnInit(): void {
   }

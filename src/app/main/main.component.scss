@@ -48,3 +48,40 @@ img{
 
 }
 
+.main__content__numbers{
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  &__item{
+  margin: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  span{
+    color: #ffc107;
+    text-decoration: bold;
+  }
+}
+
+.main__content__blogs{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &__item{
+    background: #20202a;
+    margin: 20px;
+    width: 450px;
+    height: 400px;
+  }
+  &__title{
+  margin: 10px;
+    padding: 15px;
+    color: #fafafc;
+  }
+  p{
+    color: white;
+  }
+}
